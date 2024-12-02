@@ -6,8 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 client = OpenAI(
-    api_key='pk-ndzVnsfXVrbEvzPmrpzxaTtmPrAkSpbAyLQbtiSLYOcFbvDE',
-    base_url="https://api.pawan.krd/cosmosrp/v1"
+    api_key='your-api-key'
 )
 
 @app.route('/generate-code', methods=['POST'])
